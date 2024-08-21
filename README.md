@@ -1,6 +1,6 @@
 # ResonarkScoreRecordTool
- Author: だいすろーる  
- ver0.9.4 (2024/08/20)  
+ Author: だいすろーる
+ ver0.9.5 (2024/08/21)
 
 ## インストール方法
 任意のフォルダに配置して"ResonarkScoreRecordTool.exe"を起動してください。  
@@ -10,7 +10,7 @@ Program Filesなど管理者権限が必要な場所には置かないように�
 初回起動時に.NETのランタイムのインストールが必要な場合があるのでインストールしてください。  
 
 【対応ワールド】 
-現在はVRChatの下記ワールドに対応しています（2024/08/20時点）
+現在はVRChatの下記ワールドに対応しています（2024/08/21時点）
 - RESONARK 4 ELVES Pt.1 - RhythmGame - v4.1.2 
 - RESONARK 4 ELVES Pt.2 - RhythmGame - v4.1.2 
 
@@ -20,7 +20,7 @@ Program Filesなど管理者権限が必要な場所には置かないように�
 - 登録したスコアデータの閲覧（フィルタ・ソートなど）
 - 収録楽曲一覧の閲覧
 - 登録したデータの履歴・削除
-- ResonarkChampionship4 対象楽曲のスコア一覧
+- Resonark Championship 4 対象楽曲のスコア一覧
 
 ## 禁止事項 
 - ソフトウェアの再配布、販売 

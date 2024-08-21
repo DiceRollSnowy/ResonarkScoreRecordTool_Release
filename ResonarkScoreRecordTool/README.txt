@@ -1,6 +1,6 @@
 ﻿＜ResonarkScoreRecordTool＞
  Author: だいすろーる
- ver0.9.4 (2024/08/20)
+ ver0.9.5 (2024/08/21)
  
 
 【インストール方法】
@@ -18,7 +18,7 @@ Program Filesなど管理者権限が必要な場所には置かないように�
 
 
 【対応ワールド】 
-現在はVRChatの下記ワールドに対応しています（2024/08/20時点）
+現在はVRChatの下記ワールドに対応しています（2024/08/21時点）
 - RESONARK 4 ELVES Pt.1 - RhythmGame - v4.1.2 
 - RESONARK 4 ELVES Pt.2 - RhythmGame - v4.1.2 
 
@@ -52,8 +52,8 @@ Program Filesなど管理者権限が必要な場所には置かないように�
 - クリアした楽曲のスコアデータのみ登録します。
 - 複数のJsonファイルを同時に登録できます。
 - セーブ日時、プレイヤー名、ミラーモードが同じデータは登録することができません。
+- ミラーありのデータを登録したい場合は右上のラジオボタンで適切なものを選択してください。
 - ミラーモードが異なる場合は、同時に登録を行わず改めて登録しなおしてください。
-- ミラーONのデータを登録したい場合は右上のラジオボタンで適切なものを選択してください。
 
 [Point1] ファイル拡張子は".txt"など".json"でなくても問題ありません。
 [Point2] JsonファイルはUTF-8形式のみ登録できます。プレイヤー名などが文字化けする場合はテキストエディタなどで文字コードを変換してから登録してください。
@@ -72,14 +72,14 @@ Program Filesなど管理者権限が必要な場所には置かないように�
 - Platform: 指定したプラットフォームのデータを表示します。
 
 - ClearState: 指定したクリア状況のデータを表示します。
-  * All A-Perfect                   : All Arch-Perfectのデータ
-  * [Not] All A-Perfect (AP Only)   : All Perfect済みで、All Arch-Perfectではないデータ
-  * All Perfect                     : All Perfectのデータ
-  * [Not] All Perfect (FC Only)	    : Full Combo済みで、All Perfectではないデータ
-  * Full Combo	                    : Full Combo済みのデータ
-  * [Not] Full Combo (Cleared)	    : クリア済みでFull Comboでないデータ
-  * [Not] Clear	                    : クリアしてないデータ
-
+  * AAP            : All Arch-Perfectのデータ
+  * AAP, AP        : All Arch-Perfect / All Perfectのデータ
+  * AAP, AP, FC    : All Arch-Perfect / All Perfect / Full Comboのデータ
+  * [Not] AAP      : クリア済みでAll Arch-Perfectでないデータ
+  * [Not] AP       : クリア済みでAll Perfectでないデータ
+  * [Not] FC       : クリア済みでFull Comboでないデータ
+  * [Not] Clear    : クリアしてないデータ
+  
 - World: 指定したワールドのデータを表示します。
   
 - Mirror: 
@@ -93,7 +93,7 @@ Program Filesなど管理者権限が必要な場所には置かないように�
   * Title       : 楽曲名
   * Difficult   : 楽曲難易度
   * Level       : レベル
-  * State       : FC（= Full Combo）、AP（= All Perfect）、EX（= All Arch-Perfect）
+  * State       : FC（= Full Combo）、AP（= All Perfect）、AAP（= All Arch-Perfect）
   * Score       : 楽曲クリアスコア
   * Rank        : 楽曲クリアランク
   * Tech-Rate   : Tech-Rate
@@ -138,6 +138,10 @@ Sortを選択して表示すると、MusicIDの昇順、Tech-Rateの降順、Hig
 
 
 【更新履歴】
+- 2024/08/21 v0.9.5
+・スコアデータ移行時に、Mirror=V/H/VHで登録したデータが正常に登録されない問題を修正しました
+・フィルタClearStateの内容を変更しました
+
 - 2024/08/20 v0.9.4
 ・表示データ0件のときのデータ表示不具合を修正しました
 
