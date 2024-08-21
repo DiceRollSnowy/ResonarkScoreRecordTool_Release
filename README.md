@@ -1,6 +1,9 @@
 # ResonarkScoreRecordTool
- Author: だいすろーる
- ver0.9.5 (2024/08/21)
+ Author: だいすろーる  
+ ver0.9.5 (2024/08/21)  
+
+## 画面キャプチャ  
+<img src="Images/rsrt_v095.png" alt="rsrt_v095" height="560px">
 
 ## インストール方法
 任意のフォルダに配置して"ResonarkScoreRecordTool.exe"を起動してください。  
@@ -9,10 +12,12 @@ Program Filesなど管理者権限が必要な場所には置かないように�
 このプログラムは64bit Windowsで使うことを想定しています。  
 初回起動時に.NETのランタイムのインストールが必要な場合があるのでインストールしてください。  
 
-【対応ワールド】 
-現在はVRChatの下記ワールドに対応しています（2024/08/21時点）
-- RESONARK 4 ELVES Pt.1 - RhythmGame - v4.1.2 
-- RESONARK 4 ELVES Pt.2 - RhythmGame - v4.1.2 
+【対応ワールド】  
+現在はVRChatの下記ワールドに対応しています（2024/08/21時点）  
+- RESONARK 4 ELVES Pt.1 - RhythmGame - v4.1.2   
+(https://vrchat.com/home/world/wrld_236bb7cd-dca2-44a2-9542-3b965e15d37d)
+- RESONARK 4 ELVES Pt.2 - RhythmGame - v4.1.2   
+(https://vrchat.com/home/world/wrld_27f609ee-beae-40ba-941b-6af6af0efa66)
 
 ## 主な機能
 - データエクスポートしたJsonファイルの閲覧
@@ -30,11 +35,10 @@ Program Filesなど管理者権限が必要な場所には置かないように�
 ## 注意事項など 
 本ソフトウェアは非公式のため、公式へのお問い合わせは行わないようお願いします。  
 現在はまだ開発中のため予期せぬトラブルなどが発生する可能性があります。その場合の責任は負いかねますのでご了承ください。  
-ソフトについてのご意見、ご感想がありましたらDMなどへご連絡頂けると嬉しいです。  
+ソフトについてのご意見、ご感想がありましたらDMへご連絡頂けると嬉しいです。  
 
 ## 問い合わせ先
- だいすろーる  
-Twitter (https://twitter.com/comyui_211vt)
+だいすろーる (https://twitter.com/comyui_211vt)
 
 ## 各種リンク 
 - Resonark公式サイト (https://sepnekoya.com/resonark)  
